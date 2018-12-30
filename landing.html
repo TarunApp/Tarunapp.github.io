@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Home | TarunApp</title>
+		<title>Projects | TarunApp</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -18,8 +18,9 @@
 			<div id="wrapper">
 
 				<!-- Header -->
-					<header id="header" class="alt">
-						
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+					<header id="header" class="alt style2">
+						<a href="index.html" class="logo"><strong>Home</strong> </a>
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
@@ -40,25 +41,17 @@
 					</nav>
 
 				<!-- Banner -->
-					<section id="banner" class="major">
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
 						<div class="inner">
+							<span class="image">
+								<img src="images/pic07.jpg" alt="" />
+							</span>
 							<header class="major">
-								<h1>Welcome to my website!</h1>
+								<h1>Projects</h1>
 							</header>
-							<div class="content" >
-								<!--<p style="margin-top: -37px"><font size="3">Welcome to my website</font></p>-->
-
-
-								<div class="inner" style="display: inline-block; text-align: center;">
-							<ul class="icons">
-								
-								<li><a href="https://github.com/Tarunapp" target="_blank" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							</ul>
-							
-						</div>
-
-
+							<div class="content">
+								<p>My projects usually involve task solutions or data scraping</p>
 							</div>
 						</div>
 					</section>
@@ -67,79 +60,83 @@
 					<div id="main">
 
 						<!-- One -->
-							<section id="one" class="tiles">
-								<article>
-									<span class="image">
-										<img src="images/pic01.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="landing.html" class="link">Projects</a></h3>
-										<p>Personal Projects</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/pic02.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="#" target="_self">Resume</a></h3> <!--put class="link" to make the tile into a link-->
-										<p>Resume</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/pic03.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="landing.html" class="link">File Management App</a></h3>
-										<p>An application that organizes files</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/pic04.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="landing.html" class="link">Data Scraping</a></h3>
-										<p>Data scraping Projects</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/pic05.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="landing.html" class="link">References</a></h3>
-										<p>A collection of notes and references I use for my projects</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/pic06.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="#" class="link" target="_self">Programming Resources</a></h3>
-										<p>Learning Resources</p>
-									</header>
-								</article>
-							</section>
-
-						<!-- Two 
-							<section id="two">
+							<section id="one">
 								<div class="inner">
 									<header class="major">
-										<h2>Massa libero</h2>
+										<h2>Overview</h2>
 									</header>
-									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+									<p>I have worked numerous projects, the first one being a file organizing application. Currently, I have been working on multiple projects such as a data collection tool. Additionally, I have been working with the <a href="https://developers.google.com/apis-explorer/#p/">Google Drive Api</a> for implementing my data collection with <a href="https://developers.google.com/sheets/api/">Google Sheets</a>. </p>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two" class="spotlights">
+								<section>
+									<a href="generic.html" class="image">
+										<img src="images/pic08.jpg" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>File Organizing Application</h3>
+											</header>
+											<p> An application that makes the manual task of organizing files more efficient and quicker. </p>
+											<ul class="actions">
+												<li><a href="generic.html" class="button">Github</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a href="generic.html" class="image">
+										<img src="images/pic09.jpg" alt="" data-position="top center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Python Data Collection Tool</h3>
+											</header>
+											<p> A python application that utilizes the tkinter and beautifulsoup library for scraping data from websites. The scraped data is then displayed onto the GUI. I am also working on using the Google Sheets Api for integrating the data without environment dependencies.</p>
+											<ul class="actions">
+												<li><a href="generic.html" class="button">Github</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a href="generic.html" class="image">
+										<img src="images/pic10.jpg" alt="" data-position="25% 25%" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Haddock Quote</h3>
+											</header>
+											<p>An application that displays a quote from Captain Haddock. The quotes will be scraped from the Tintin Wiki.</p>
+											<ul class="actions">
+												<li><a href="generic.html" class="button">Github</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+							</section>
+
+						<!-- Three -->
+							<section id="three">
+								<div class="inner">
+									<header class="major">
+										<h2>And More!</h2>
+									</header>
+									<p>Im always working on new projects, even though they  may not be the most impressive, check out my Github.</p>
 									<ul class="actions">
-										<li><a href="landing.html" class="button next">Get Started</a></li>
+										<li><a href="generic.html" class="button next">Github</a></li>
 									</ul>
 								</div>
 							</section>
-						
+
 					</div>
-						-->
-				<!-- Contact 
+
+				 Contact 
 					<section id="contact">
 						<div class="inner">
 							<section>
@@ -190,20 +187,16 @@
 								</section>
 							</section>
 						</div>
-					</section>
-				-->
+					</section> 
 
 				<!-- Footer -->
 					<footer id="footer">
-
-						
 						<div class="inner">
 							<ul class="icons">
-
+								
+								<li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
 							</ul>
-
-							
-
 							<ul class="copyright">
 								<li>&copy; Abraxas</li><li><a href="https://html5up.net">HTML5 UP</a></li>
 							</ul>
