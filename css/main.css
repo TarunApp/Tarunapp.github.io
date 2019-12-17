@@ -13,7 +13,7 @@
   padding: .5rem 1.5rem;
   margin-bottom: 1rem;
   border: .2rem solid #32343c;
-  border-radius: .1rem;
+  border-radius: .6rem;
 }
 
 .header-img{
@@ -22,11 +22,12 @@
   margin-bottom: 1rem;
   /*border: .3rem solid #32343c;
   border-radius: .1rem;*/
-  position: fixed;
+  position: absolute;
+  /*Stays in place!*/
   top: 50%;
   left: 50%;
-  margin-top: -280px;
-  margin-left: 345px;
+  margin-top: -30px;
+  margin-left: 550px;
 }
 
 .header-linked{
@@ -37,11 +38,12 @@
   margin-bottom: 1rem;
   /*border: .3rem solid #32343c;
   border-radius: .1rem;*/
-  position: fixed;
+  position: absolute; 
+  /*Stays in place!*/
   top: 50%;
   left: 50%;
-  margin-top: -280px;
-  margin-left: 280px;
+  margin-top: -30px;
+  margin-left: 490px;
 }
 
 .header-nav {
@@ -86,12 +88,21 @@
   left: 1090px;
 }
 
+.weblinks{
+  color: #800080;
+}
 
 
 .maincontent{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: 1px;
-    margin-left: -95px;
+    text-align: center;
+    position: absolute;
+    top: 300px;
+    right: 98px;
+}
+
+.greet{
+  text-align: center;
+  position: absolute;
+  top: 400px;
+  right: 500px;
 }
