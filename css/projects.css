@@ -11,10 +11,33 @@
 
 
 
-.cell-display{
-	display: flex;
+#box-animation{
+ -webkit-transition : border 500ms ease-out; 
+ -moz-transition : border 500ms ease-out;
+ -o-transition : border 500ms ease-out;
+}
+
+#box-animation:hover{
+	border: .2rem solid white; 
+}
+
+/*Media queries work if you specifcy conditions. 
+Cannot leave one condition as a class itself, needs to include
+media query and condition to work.*/
+@media screen and (min-width: 480px){
+  .cell-display {
+  	display: flex;
 	justify-content: space-evenly;
-	padding-right: 500px;
+	/*padding: 50px;*/
+  }
+}
+
+@media screen and (max-width: 480px){
+.cell-display{
+	display: block;
+    float: none;
+    width: 100%;
+	}
 }
 
 .header-box {
