@@ -21,6 +21,9 @@
 	border: .2rem solid white; 
 }
 
+
+
+
 /*Media queries work if you specifcy conditions. 
 Cannot leave one condition as a class itself, needs to include
 media query and condition to work.*/
@@ -32,6 +35,7 @@ media query and condition to work.*/
   }
 }
 
+/*For mobile*/
 @media screen and (max-width: 480px){
 .cell-display{
 	display: block;

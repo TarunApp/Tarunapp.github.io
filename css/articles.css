@@ -1,0 +1,75 @@
+
+.float-left{
+  font-size: 34px;
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  display: inline-block;
+  padding: 0rem 1.5rem;
+  margin-bottom: -1rem;
+  margin-left: 4rem;
+  border: .2rem solid #26282d;
+  border-radius: .6rem;
+
+}
+
+@media screen and (min-width: 480px){
+  .float-left{
+  font-size: 34px;
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  display: inline-block;
+  padding: 0rem 1.5rem;
+  margin-bottom: -1rem;
+  margin-left: 45rem;
+  border: .2rem solid #26282d;
+  border-radius: .6rem;
+
+}
+}
+
+@media screen and (max-width: 480px){
+  .float-left{
+  font-size: 34px;
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  display: inline-block;
+  padding: 0rem 1.5rem;
+  margin-bottom: -1rem;
+  margin-left: 1rem;
+  border: .2rem solid #26282d;
+  border-radius: .6rem;
+
+}
+}
+
+
+.blog-title{
+	text-align: center;
+	position: relative;
+	/*left: -10px;*/
+	color: #ebcb8b; 
+  font-family: 'Roboto Mono', monospace; font-size: 50px;
+}
+
+.blog-summary{
+	text-align: center;
+	color: #ebcb8b; 
+	font-size: 19px;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.hr-custom{
+	width: 100px;
+	text-align: center;
+}
+
+.blog-content{
+	text-align: auto;
+	color: white; 
+	font-size: 17px;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.empty{
+	color: #26282d;
+}
