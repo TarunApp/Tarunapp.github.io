@@ -16,6 +16,8 @@
   border-radius: .6rem;
 }
 
+
+
 .navbar-text {
   font-size: 34px;
   font-family: 'Roboto Mono', monospace;
@@ -99,7 +101,7 @@
 }
 
 .normaltext{  
-  color: white; 
+  color: #ebcb8b; 
   font-family: 'Roboto Mono', monospace; font-size: 25px;
 }
 
