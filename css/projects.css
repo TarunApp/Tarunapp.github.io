@@ -9,6 +9,29 @@
   position: relative;
 }
 
+/*Add Media queries to home content*/
+/*@media screen and (min-width: 480px){
+  {
+
+  }
+}
+
+@media screen and (min-width: 480px){
+  {
+
+  }
+}
+*/
+
+.index-content{
+  text-align: center;
+  position: relative;
+  /*left: -10px;*/
+  color: #ebcb8b; 
+  font-family: 'Roboto Mono', monospace; font-size: 30px;
+}
+
+
 
 
 #box-animation{
