@@ -64,8 +64,9 @@
 }
 
 .blog-content{
-	text-align: auto;
+	text-align: justify;
 	color: white; 
+  line-height: 27px;
 	font-size: 17px;
 	font-family: 'Roboto Mono', monospace;
 }
