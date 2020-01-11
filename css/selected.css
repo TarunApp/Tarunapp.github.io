@@ -1,8 +1,7 @@
 .container{
-
-	display: inline-grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 10px;
+	display: flex; 
+  flex-direction: row;
+  /*Flex disables the copying of dimensions for other page components*/
 }
 
 
@@ -11,7 +10,7 @@
   font-family: 'Roboto Mono', monospace;
   color: white;
   display: inline-block;
-
+  
   padding: .5rem 1.5rem;
   margin-bottom: 1rem;
 
@@ -30,9 +29,24 @@
   font-family: 'Roboto Mono', monospace;
   text-align: left;
   color: white;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   border: .2rem solid #32343c;
   border-radius: .6rem;
   margin-left: 50px;
 }
 
+/*Primary*/
+/*@media screen and (min-width: 480px){
+  .container{
+
+  }
+}*/
+
+/*Other Viewports*/
+@media screen and (max-width: 480px){
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+}
