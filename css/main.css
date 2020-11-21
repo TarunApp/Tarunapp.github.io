@@ -128,3 +128,22 @@ h5 {
 .card h1 {
     font-size: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.page-summary {
+    text-align: center;
+}
+
+.page-summary ul{
+    list-style: none;
+}
