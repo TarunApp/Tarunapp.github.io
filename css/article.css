@@ -1,43 +1,7 @@
-body {
-    background: #61A0AF;
+body{
+    background-color: #495159;
 }
 
-.contentbox {
-    background: #ECE5F0;
-
-
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding-top: 1%;
-    padding-right: 10%;
-    padding-left: 10%;
-    overflow: auto;
-}
-
-.contentbox h1 {
-    font-size: 50px;
-    overflow: hidden;
-}
-
-.contentbox p {
-    text-align: justify;
-}
-
-
-.footer-blog {
-    background: #1C2826;
-    text-align: center;
-    position: absolute;
-    width: 100%;
-}
-
-.footer-blog p {
-    color: #DEE2D6;
-    font-size: 20px;
-}
-
-.tag {
-    margin-bottom: 30px;
-}
 
 .tag p {
 	display: inline;
@@ -50,4 +14,18 @@ body {
     font-size: 20px;
     color: white;
     margin-right: 4px;
+}
+
+.contentbox{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.contentbox h1{
+    font-size: 35px;
+    color: white;
+}
+
+.contentbox p{
+    color: white;
 }

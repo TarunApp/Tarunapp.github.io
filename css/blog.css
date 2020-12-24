@@ -32,3 +32,19 @@
     margin: 12px;
     padding-bottom: 10px;
 }
+
+.footer p {
+    color: #DEE2D6;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #1C2826;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    padding-top: 2px;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 15px;
+}
