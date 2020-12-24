@@ -24,6 +24,7 @@
 # fi
 
 python move.py
+python update.py
 git add .
 # Remove __pycache__ folder
 

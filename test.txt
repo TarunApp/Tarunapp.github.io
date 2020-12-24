@@ -41,24 +41,35 @@
 
 
 
-        </div>
 
 
+
+		<div class="card">
+	        <div class="tags">
+	        <p>firstpost</p>
+	        </div>
+	        <a href="blogposts/firstpost.html">Hello World</a>
+	    </div>
+	
+		<div class="card">
+	        <div class="tags">
+	        <p>secondpost</p>
+	        </div>
+	        <a href="blogposts/secondpost.html">Hello World</a>
+	    </div>
+	
+		<div class="card">
+	        <div class="tags">
+	        <p>thirdpost</p>
+	        </div>
+	        <a href="blogposts/thirdpost.html">Hello World</a>
+	    </div>
+	</div>
     </section>
-
-
-
-
 	<div class="footer">
         <footer>
             <p>&copy Tarun | <a href="mailto:tappannagari@icloud.com">Contact me</a> | <a href="#">Twitter</a></p>
         </footer>
     </div>
-
-
-
 </body>
-
 </html>
-
-<script src="posts.js"></script>
