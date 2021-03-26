@@ -1,0 +1,11 @@
+{
+	"Sun": "Gaseous",
+	"Mercury": "Terrestrial",
+	"Mars": "Terrestrial",
+	"Venus": "Terrestrial",
+	"Earth": "Terrestrial",
+	"Jupiter": "Gaseous",
+	"Saturn": "Gaseous",
+	"Uranus": "Gaseous",
+	"Neptune": "Gaseous",
+}
